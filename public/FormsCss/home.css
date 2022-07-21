@@ -1,0 +1,69 @@
+h1 {
+    margin-bottom: 30px;
+}
+.underline {
+    text-decoration: underline;
+}
+/*#region Style for movie cards*/
+article {
+    margin-top: 3rem;
+    padding: 1rem;
+    border: 1px solid #c5c5c5;
+    border-radius: 20px;
+    transition: 0.5s;
+    overflow: hidden;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+article > p {
+    word-break: break-all;
+    max-width: 58%;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+}
+article:hover {
+    background-color: #111827;
+
+    transition: 0.5s;
+}
+/*#endregion*/
+/*#region Style for movie name in movie card*/
+a.movies {
+    transition: 0.5s;
+    padding-inline: 0;
+}
+
+a.movies:hover {
+    opacity: 0.5;
+    transition: 0.5s;
+}
+/*#endregion*/
+
+/*#region Style for category name in movie card*/
+a.categories {
+    max-width: fit-content;
+    margin: auto;
+    text-align: center;
+    transition: 0.5s;
+}
+a.categories:hover {
+    opacity: 0.5;
+    transition: 0.5s;
+}
+/*#endregion*/
+
+/*#region Style for actor name in movie card*/
+a#actors {
+    margin-top: 5px;
+    text-align: center;
+    transition: 0.5s;
+}
+a#actors:hover {
+    opacity: 0.5;
+    transition: 0.5s;
+}
+/*#endregion*/

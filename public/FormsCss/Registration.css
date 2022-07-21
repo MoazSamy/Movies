@@ -1,0 +1,65 @@
+/*registration page*/
+
+/*#region for register form*/
+form.register{
+    margin-top: 3rem;
+    margin-inline: auto;
+    padding: 1rem;
+    border: 1px solid #c5c5c5;
+    border-radius: 20px;
+    width:fit-content;
+}
+div.form{
+    padding-top:10px;
+}
+/*#endregion*/
+
+/*#region for registration submit button display message*/
+button.submit{
+    background-color: rgb(111, 111, 255);
+    border:1px solid rgb(111, 111, 255);
+    border-radius:10px;
+    font-family: inherit;
+    font-size:large;
+    color:white;
+}
+button.submit:hover{
+    background-color: rgb(111, 111, 255);
+    border:1px solid rgb(111, 111, 255);
+    opacity: 0.7;
+    cursor:pointer;
+}
+/*#endregion*/
+
+/*#region for registration errors display message*/
+.error{
+    color:red;
+    font-size:12px;
+    margin-top:5px;
+    margin-bottom: 0px;
+}
+.perror{
+    display:none;
+
+}
+/*#endregion*/
+
+/*#region for success display message*/
+.success{
+    position:fixed;
+    bottom:0.75rem;
+    right:0.75rem;
+    background-color: rgb(111, 111, 255);
+    border-radius:20px;
+    color:white;
+    padding:10px;
+    opacity:0;
+}
+.successfade{
+    opacity:1;
+    transition:opacity 4s;
+}
+.successgone{
+    display:none;
+}
+/*#endregion*/

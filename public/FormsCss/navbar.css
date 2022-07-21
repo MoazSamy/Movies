@@ -1,0 +1,101 @@
+nav{
+    width: 80%;
+    margin:auto;
+}
+nav>ul>li>a , article>h1>a , article>p>a , body>div>a{
+    padding:0.5rem;
+    text-decoration: none;
+    color:white;
+}
+ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    list-style-type: none;
+    padding:0px;
+}
+li{
+    padding-top:9px;
+    margin-inline: 0.75rem;
+}
+a:visited{
+    color:white;
+}
+/*#region navbar buttons*/
+
+/*movies button*/
+a.movie{
+    transition:0.5s;
+}
+a.movie:hover{
+    border-bottom:3px solid white;
+    transition:0.5s;
+}
+
+/*categories button*/
+a#category{
+    transition:0.5s;
+}
+a#category:hover{
+    border-bottom:3px solid white;
+
+    transition:0.5s;
+}
+
+/*actors button*/
+a.actor{
+    transition:0.5s;
+}
+a.actor:hover{
+    border-bottom:3px solid white;
+    transition:0.5s;
+}
+
+/*register button*/
+a.register{
+    margin-top: 5px;
+    text-align: center;
+    transition:0.5s;
+}
+a.register:hover{
+    border-bottom:3px solid white;
+    transition:0.5s;
+}
+
+
+/*#endregion*/
+
+
+/*#region search field*/
+input ,input:focus{
+    background-color: #111827;
+    color: white;
+    max-width: 600px;
+    margin: auto;
+    font-family: Poppins , Helvetica , Sans-serif;
+    border: 1px solid #c5c5c5;
+    border-radius: 20px;
+    transition:0.5s;
+    padding:0.5rem;
+    outline: none;
+}
+/*#endregion*/
+/*#region logout button*/
+.logout{
+    width:max-content;
+    font-family: Poppins , Helvetica, sans-serif;
+    font-size: medium;
+    text-align: center;
+    background-color: transparent;
+    transition:0.5s;
+    border:none;
+    padding:0.5rem;
+    text-decoration: none;
+    color:white;
+}
+.logout:hover{
+    border-bottom:3px solid white;
+    transition:0.5s;
+    cursor:pointer;
+}
+/*#endregion*/

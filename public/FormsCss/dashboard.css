@@ -1,0 +1,27 @@
+table.dashboard{
+    width:100%;
+    border: 1px solid #c5c5c5;
+    border-radius: 20px;
+}
+table>tbody>tr>td>div>a{
+    text-decoration: none;
+    transition:0.5s;
+}
+table>tbody>tr>td>div>a:hover{
+    opacity:0.5;
+    transition:0.5s;
+}
+td{
+    text-align: center;
+}
+.delete{
+    background: transparent;
+    color: #8c8888;
+    font-family: 'Poppins';
+    border: none;
+    font-size: small
+}
+.delete:hover{
+    opacity:50%;
+    cursor: pointer;
+}

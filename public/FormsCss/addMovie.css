@@ -1,0 +1,18 @@
+/*#region for movie add page*/
+form.create{
+    margin-top: 3rem;
+    margin-inline: auto;
+    padding: 1rem;
+    border: 1px solid #c5c5c5;
+    border-radius: 20px;
+    width:fit-content;
+}
+div.form-field+div.form-field{
+    padding-top:10px;
+}
+textarea{
+    height:5rem;
+    width:20rem;
+    overflow-y:scroll;
+}
+/*#endregion*/
